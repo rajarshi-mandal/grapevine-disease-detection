@@ -1,2 +1,8 @@
-# grapevine-disease-detection
-Description Here
+# Grapevine Disease Detection
+This repository contains the code for [my paper](LINK HERE] titled "Automated Apple Disease Detection Using a Deep Learning Approach Based on Convolutional Neural Networks."
+
+### Abstract
+The Food and Agriculture Organization of the United Nations (FAO) estimates that 20 to 40 percent of crops produced around the world are lost to pests, costing $220 billion dollars annually. With a high nutritional and medicinal value, apples are one of the key fruits for healthy living today. Most industrialized apple orchards currently rely on human vision for disease detection, which causes a significant lag in the tracking of apple diseases resulting in poor crop yields and fruit quality. Automating apple disease detection using machine learning will lead to sustainable farming. Deep learning, a branch of machine learning, is well-suited for learning from image data. In this paper, Convolutional Neural Networks (CNN), a type of deep learning model, are investigated to accurately classify healthy and disease-affected apple leaf images. A baseline CNN model is developed along with other CNN models, namely DenseNet121, EfficientNetB7, MobileNetV2, ResNet50, and VGG16. A max-voting ensemble that includes the most accurate CNN models is then deployed on the web. Consequently, apple farmers and other users can detect the three common apple leaf diseases – apple scab, black rot, and cedar apple rust, as well as healthy leaves by uploading their own images from the orchard. 
+
+### Dataset
+The [original dataset](https://www.kaggle.com/datasets/rm1000/apple-disease-dataset-original) used for this project contained four classes (apple scab, black rot, cedar apple rust, and healthy) with about 2,000 training images and 500 testing images each. After performing data preprocessing and augmentation, the [new dataset](https://www.kaggle.com/datasets/rm1000/augmented-apple-disease-detection-dataset) has been uploaded to Kaggle for the community to access.
